@@ -34,7 +34,7 @@ const App = () => {
       <h5 className="heading">{title}</h5>
 
       <div className="row">
-        {colourConfig.map((config, index) => (
+        {colourConfig.map((config) => (
           <ColourSelector key={config.key} config={config} selectNextBackground={selectNextBackground} />
         ))}
       </div>
